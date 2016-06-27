@@ -32,7 +32,7 @@ public class TimeOffController {
 
 	@RequestMapping("/hello/{name}")
 	public String hello(@PathVariable String name) {
-		return "Hello, " + name + "! Welcome to Timeoff Application";
+		return "Hello, " + name + "! Welcome to Timeoff Application by Anil";
 	}
 
 	@RequestMapping("/hello")
